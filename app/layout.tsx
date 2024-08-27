@@ -69,7 +69,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar menubar={menubar} widthsubstract={widthsubstract} />
-          <div style={mrtyle} id="mainRoot" className="bg-zinc-950 text-white">
+          <div style={mrtyle} id="mainRoot" className="bg-zinc-950 text-white ">
             {children}
           </div>
           <div
